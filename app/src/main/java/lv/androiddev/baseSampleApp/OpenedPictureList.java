@@ -4,12 +4,15 @@ import android.content.Context;
 import android.content.Intent;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
 
 import lv.androiddev.BaseApp.BaseListFragment;
 import lv.androiddev.BaseApp.utils.BaseItem;
+import lv.androiddev.baseSampleApp.models.Joke;
+import lv.androiddev.baseSampleApp.models.Picture;
 
 /**
  * Created by martinsstrengis on 17/04/15. Yey
@@ -27,7 +30,7 @@ public class OpenedPictureList extends BaseListFragment {
             Picture pic = new Picture(new JSONObject(getArguments().getString("pic_data")));
             pic.opened = true;
             data.add(pic);
-        }catch (Exception e){
+        }catch (JSONException e){
             e.printStackTrace();
         }
 

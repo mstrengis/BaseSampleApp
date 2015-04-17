@@ -15,6 +15,7 @@ import lv.androiddev.BaseApp.BaseActivity;
 import lv.androiddev.BaseApp.BaseListFragment;
 import lv.androiddev.BaseApp.utils.BaseItem;
 import lv.androiddev.BaseApp.views.BaseRecyclerView;
+import lv.androiddev.baseSampleApp.models.Picture;
 
 /**
  * Created by martinsstrengis on 17/04/15. Yey

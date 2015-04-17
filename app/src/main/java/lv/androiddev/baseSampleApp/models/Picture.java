@@ -1,4 +1,4 @@
-package lv.androiddev.baseSampleApp;
+package lv.androiddev.baseSampleApp.models;
 
 import android.os.Build;
 import android.text.Html;
@@ -11,6 +11,8 @@ import org.json.JSONObject;
 import lv.androiddev.BaseApp.BaseActivity;
 import lv.androiddev.BaseApp.BaseApplication;
 import lv.androiddev.BaseApp.utils.BaseItem;
+import lv.androiddev.baseSampleApp.viewHolders.PictureHolder;
+import lv.androiddev.baseSampleApp.R;
 
 /**
  * Created by martinsstrengis on 17/04/15. Yey

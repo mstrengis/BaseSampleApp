@@ -1,9 +1,10 @@
-package lv.androiddev.baseSampleApp;
+package lv.androiddev.baseSampleApp.viewHolders;
 
 import android.view.View;
 import android.widget.TextView;
 
 import lv.androiddev.BaseApp.utils.BaseRecyclerViewHolder;
+import lv.androiddev.baseSampleApp.R;
 
 /**
  * Created by martinsstrengis on 17/04/15. Yey

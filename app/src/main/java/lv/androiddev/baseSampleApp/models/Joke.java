@@ -1,4 +1,4 @@
-package lv.androiddev.baseSampleApp;
+package lv.androiddev.baseSampleApp.models;
 
 import android.text.Html;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import org.json.JSONObject;
 
 import lv.androiddev.BaseApp.utils.BaseItem;
+import lv.androiddev.baseSampleApp.viewHolders.JokeHolder;
+import lv.androiddev.baseSampleApp.R;
 
 /**
  * Created by martinsstrengis on 17/04/15. Yey
