@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+    <lv.androiddev.BaseApp.views.BaseSwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <lv.androiddev.BaseApp.views.BaseRecyclerView
+            android:id="@+id/recycler_view"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+    </lv.androiddev.BaseApp.views.BaseSwipeRefreshLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_indicator"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+    />
+</RelativeLayout>
